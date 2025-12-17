@@ -439,13 +439,13 @@ async def main_flow():
 
     line()
     if result.get("success"):
-        print("✅ VERIFICATION SUCCESS!")
+        print("✅ UPLOAD DOC SUCCESS!")
         print()
         print(f"👤 Name   : {full_name}")
         print(f"🏫 School : {s_name}")
         print(f"📧 Email  : {email}")
         print(f"🆔 Faculty ID : {faculty_id}")
-        print(f"🔗 Status : SUCCESS")
+        print(f"🔗 Status : MENUNGGU PENINJAUAN")
         print("\nType 'python3 k12_cli.py' untuk mulai lagi.")
     else:
         print("❌ VERIFICATION FAILED")
